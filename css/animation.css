@@ -1,0 +1,166 @@
+/* ---------------- my title aniamtion -------------- */
+.animate1 {
+	animation-name: animate1;
+}
+.animate2 {
+	animation-name: animate2;
+}
+.animate3 {
+	animation-name: animate3;
+}
+.animate1,.animate2,.animate3 {
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	animation-iteration-count: infinite;
+	animation-duration: 10s;
+
+}
+@keyframes animate1 {
+	0% { 
+		opacity: 0; 
+		display: none;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+	25% {
+		opacity: 1;
+		display: block;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+	50% {
+		opacity: 0;
+		display: none;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+	75% {
+		opacity: 0;
+		display: none;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+	100% {
+		opacity: 0;
+		display: none;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+	
+}
+@keyframes animate2 {
+	0% { 
+		opacity: 0; 
+		display: none;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+	25% {
+		opacity: 0;
+		display: none;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+	50% {
+		opacity: 1;
+		display: block;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+	75% {
+		opacity: 0;
+		display: none;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+	100% {
+		opacity: 0;
+		display: none;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+
+}
+@keyframes animate3 {
+	0% { 
+		opacity: 0; 
+		display: none;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+	25% {
+		opacity: 0;
+		display: none;
+		position: absolute;
+		top: 5px;
+		left: 5px;
+	}
+	50% {
+		opacity: 0;
+		display: none;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+	75% {
+		opacity: 1;
+		display: block;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+	100% {
+		opacity: 0;
+		display: none;
+		position: absolute;
+		left: 5px;
+		top: 5px;
+	}
+}
+
+/* ---------------- scroll down animation ------------ */
+#scroll_down {
+	position: absolute;
+	padding-right: 5px;
+	margin-top: 10px;
+	animation-name: scroll_down;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+}
+@keyframes scroll_down {
+	0% {padding-top: 0px;}
+	25% {padding-top: 10px;}
+	50% {padding-top: 0px;}
+	75% {padding-top: 10px;}
+	100% {padding-top: 0;}
+	
+}
+
+/* ---------------- scroll down animation end ------------ */
+
+
+.progress_bar {
+	animation-name: progress;
+	animation-iteration-count: 1;
+	animation-duration: 3s;
+}
+@keyframes progress {
+	form {
+		width: 0;
+	}
+	to {
+		max-width: 100%;
+	}
+}

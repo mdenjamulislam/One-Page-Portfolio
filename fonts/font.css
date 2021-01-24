@@ -1,0 +1,71 @@
+/*-- it is a hand write fonts. This font name is WendyLPStd-Medium. 
+If you want to use this font {font-family name: WendyLPStd-Medium;} --*/
+
+@font-face{
+	font-family:"WendyLPStd-Medium";
+	src:url("../fonts/WendyLPStd-Medium.eot") format("eot"),
+	url("../fonts/WendyLPStd-Medium.woff") format("woff"),
+	url("../fonts/WendyLPStd-Medium.ttf") format("truetype"),
+	url("../fonts/WendyLPStd-Medium.svg#WendyLPStd-Medium") format("svg");
+}
+
+
+@font-face{
+	font-family: "DRPcheckbox";
+	src:url("../fonts/DRPcheckbox/DRPcheckbox.eto") format("eto"),
+	url("../fonts/DRPcheckbox/DRPcheckbox.woff") format("woff"),
+	url("../fonts/DRPcheckbox/DRPcheckbox.ttf") format("truetype"),
+	url("../fonts/DRPcheckbox/DRPcheckbox.svg#DRPcheckbox") format("svg");
+}
+
+/*-- it is a bangla fonts this font name is SolaimanLipi. 
+If you want to use this font {font-family name: SolaimanLipi;} --*/
+@font-face{
+	font-family:"SolaimanLipi";
+	src:url("../fonts/SolaimanLipi.eot") format("eot"),
+	url("../fonts/SolaimanLipi.woff") format("woff"),
+	url("../fonts/SolaimanLipi.ttf") format("truetype"),
+	url("../fonts/SolaimanLipi.svg#SolaimanLipi") format("svg");
+}
+
+
+
+@font-face{
+	font-family: "DRPicons-webfont";
+	src:url("../fonts/DRPicons-webfont/DRPicons-webfont.eto") format("eto"),
+	url("../fonts/DRPicons-webfont/DRPicons-webfont.woff") format("woff"),
+	url("../fonts/DRPicons-webfont/DRPicons-webfont.ttf") format("truetype"),
+	url("../fonts/DRPicons-webfont/DRPicons-webfont.svg#DRPicons-webfont") format("svg");
+}
+
+
+
+@font-face{
+	font-family: "proxima_nova_light-webfont";
+	src:url("../fonts/ProximaNova/proxima_nova_light-webfont.eto") format("eto"),
+	url("../fonts/ProximaNova/proxima_nova_light-webfont.woff") format("woff"),
+	url("../fonts/ProximaNova/proxima_nova_light-webfont.ttf") format("truetype"),
+	url("../fonts/ProximaNova/proxima_nova_light-webfont.svg#proxima_nova_light-webfont") format("svg");
+}
+
+
+
+
+
+/* This is roboto font. here is two font for Roboto. roboto-light and roboto-regular */
+@font-face{
+	font-family: "roboto-light-webfont";
+	src:url("../fonts/Roboto/roboto-light-webfont.eto") format("eto"),
+	url("../fonts/Roboto/roboto-light-webfont.woff") format("woff"),
+	url("../fonts/Roboto/roboto-light-webfont.ttf") format("truetype"),
+	url("../fonts/Roboto/roboto-light-webfont.svg#roboto-light-webfont") format("svg");
+}
+
+@font-face{
+	font-family: "roboto-regular-webfont";
+	src:url("../fonts/Roboto/roboto-regular-webfont.eto") format("eto"),
+	url("../fonts/Roboto/roboto-regular-webfont.woff") format("woff"),
+	url("../fonts/Roboto/roboto-regular-webfont.ttf") format("truetype"),
+	url("../fonts/Roboto/roboto-regular-webfont.svg#roboto-regular-webfont") format("svg");
+}
+

@@ -1,0 +1,823 @@
+/*		Default Layout: 1140px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+*/
+
+.wrap {
+	width: 1140px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+/*
+		Tablet Layout: 1024px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.wrap {
+		width: 98%;
+			
+	}
+
+	.section_title > p {
+		max-width: 70%;
+	}
+	.col-3 {width: 30%; margin-right: 3%; padding: .333%;}
+	.col-4 {width: 23%; margin-right: 2%;}
+
+
+	/*------------ header start ------------------*/
+
+	.logo {
+		width: 25%;
+	}
+	.menu {
+		width: 75%;
+	}
+	.menu #navbar {
+		float: right;
+	}
+
+
+	/*------------- header area end ----------------- 8?
+
+
+	/*------------- About area start --------------*/
+	.personal_img {
+	    width: 40%;
+	    margin-right: 5%;
+	}
+	.about_text {
+		width: 50%;
+		padding-left: 0;
+		margin-top: 0;
+	}
+
+	.personal_img-inner .p_img-wrap > img {
+		width: 100%;
+		height: auto;
+	}
+	.about_text .view_protfolio {
+		padding-bottom: 15px;
+	}
+	/*---------------- about area end ---------------*/
+
+	/*------------- Remuse area start --------------*/
+	.perimg_box-wrap  {
+		display: 40%;
+		margin-right: 5%;
+		float: left;
+	}
+	.exprience_box-wrap {
+		width: 50%;
+		float: left;
+	}
+	.experience_cont {
+		padding: 100px 5%;
+		overflow: hidden;
+	}
+	.pills_botton {
+		width: 30%;
+		margin-right: 10%;
+	}
+	.skill_content-wrap {
+		width: 60%;
+	}
+
+
+
+	/*------------- Remuse area end --------------*/
+}
+
+/*
+		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+	.wrap {
+			width: 100%;
+			margin: 0 auto;
+			padding: 0 15px;
+		}
+
+	.section_title > p {
+		max-width: 70%;
+	}
+
+
+	.col-3 {width: 44%; margin-right: 4%; padding: 1%;}
+	.col-3:nth-child(2) {margin-right: 0;}
+	.col-3:nth-child(3) {margin-right: 4%;}
+	.col-3:nth-child(4) {margin-right: 0;}
+	.col-3:nth-child(5) {margin-right: 4%;}
+	.col-3:nth-child(6) {margin-right: 0;}
+	.col-3:nth-child(7) {margin-right: 4%;}
+	.col-3:nth-child(8) {margin-right: 0;}
+
+	.col-4 {width: 30.33%; margin-right: 3%;}
+	.col-4:nth-child(3) {margin-right: 0;}
+	.col-4:nth-child(4) {margin-right: 3%;}
+	.col-4:nth-child(6) {margin-right: 0;}
+	.col-4:nth-child(8) {margin-right: 3%;}
+	.col-4:nth-child(9) {margin-right: 0;}
+	.col-4:nth-child(12) {margin-right: 0;}
+	.col-4:nth-child(15) {margin-right: 0%;}
+	.col-4:nth-child(16) {margin-right: 3%;}
+
+
+	/*-------------- navbar start -------------------*/
+	.navbar {display: none;}
+	.menu a.icon {
+		display: block;
+		float: right;
+	}
+	.navbar {
+		background-color: #b6b6b6;
+		-webkit-box-shadow: 0 10px 25px rgba(60, 72, 88, 0.3);
+   		box-shadow: 0 10px 25px rgba(60, 72, 88, 0.3);
+   		z-index: 5;
+	}
+	
+	.navbar.responsive {
+		width: 100%;
+		position: absolute;
+		display: block;
+		left: 0;
+		top: 82px;
+	}
+	.menu a.icon {
+		position: absolute;
+		top: 25px;
+		right: 15px;
+	}
+	.navbar.responsive ul {
+		margin-bottom: 15px;
+	}
+	.navbar.responsive ul li {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.navbar.responsive > ul > li > a {
+		color: #111;
+	}
+
+	/*----------------- navbar end --------------*/
+
+
+
+	/*------------ about area start ----------------- */
+	.personal_img {
+	    width: 40%;
+	    margin-right: 5%;
+	}
+	.about_text {
+		width: 50%;
+		padding-left: 0;
+		margin-top: 0;
+	}
+
+	.personal_img-inner .p_img-wrap > img {
+		width: 100%;
+		height: auto;
+	}
+	.about_text .view_protfolio {
+		padding-bottom: 15px;
+	}
+
+	/* -------------- about area end --------------------- */
+
+	/* ----------------- Remuse area start ------------------ */
+
+	.timeline > ul > li {
+		padding: 20px 30px;
+	}
+	.perimg_box-wrap  {
+		display: none;
+	}
+	.exprience_box-wrap {
+		width: 100%;
+		float: none;
+	}
+	.experience_cont {
+		padding: 80px 5%;
+		overflow: hidden;
+	}
+	.pills_botton {
+		width: 30%;
+	}
+	.skill_content-wrap {
+		width: 60%;
+	}
+
+	/* ----------------- Remuse end ------------------------------ */
+
+	/* ---------- Protfolio start ------------------- */
+
+
+
+
+	/* ------------- Client area start -------------------- */
+
+	.testimonial_cont-wrap {
+		display: block;
+	}
+	.testimonial_cont {
+		width: 42%;
+		margin-right: 5%;
+	}
+	.client_message {
+		padding: 3%;
+	}
+	/* ---------------- Client area end -------------------- */
+
+	/* ------------------ Contact area start ----------------- */
+	.contact_cont {
+		width: 30%;
+		margin-right: 3%;
+	}
+	.contact_cont:nth-child(3) {
+		margin-right: 0;
+	}
+
+	.contact_form {
+		width: 80%;
+		margin: auto;
+	}
+	.contact_box {
+		width: 100%;
+		margin-right: 0;
+		margin-top: 0;
+	}
+	.contact_box > input[type="submit"] {
+		float: left;
+	}
+	.contact_box > textarea {
+		width: 90%;
+		padding: 10px 15px;
+	}
+}
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+*/
+@media only screen and (max-width: 767px) {
+
+	.wrap {
+			width: 100%;
+			padding-left: 10px;
+			padding-right: 10px;
+			margin: 0 auto;
+		}
+
+	.section_title > p {
+		max-width: 90%;
+	}
+
+
+	.col-3 {width: 95%; margin: 0 auto; margin-right: 0%; margin-bottom: 20px; padding: 1%; }
+	.col-3:nth-child(2) {margin-right: 0;}
+	.col-3:nth-child(3) {margin-right: 0%;}
+	.col-3:nth-child(4) {margin-right: 0;}
+	.col-3:nth-child(5) {margin-right: 0%;}
+	.col-3:nth-child(6) {margin-right: 0;}
+	.col-3:nth-child(7) {margin-right: 0%;}
+	.col-3:nth-child(8) {margin-right: 0;}
+
+	.col-4 {width: 48%; margin-right: 2%;}
+	.col-4:nth-child(3) {margin-right: 2;}
+	.col-4:nth-child(4) {margin-right: 0%;}
+	.col-4:nth-child(5) {margin-right: 2;}
+	.col-4:nth-child(6) {margin-right: 0;}
+	.col-4:nth-child(7) {margin-right: 2%;}
+	.col-4:nth-child(8) {margin-right: 0%;}
+	.col-4:nth-child(9) {margin-right: 2;}
+	.col-4:nth-child(10) {margin-right: 0;}
+	.col-4:nth-child(11) {margin-right: 2;}
+	.col-4:nth-child(12) {margin-right: 0;}
+	.col-4:nth-child(13) {margin-right: 2;}
+	.col-4:nth-child(14) {margin-right: 0%;}
+	.col-4:nth-child(15) {margin-right: 2%;}
+	.col-4:nth-child(16) {margin-right: 0%;}
+
+
+	/*-------------- navbar start -------------------*/
+	.navbar {display: none;}
+	.menu a.icon {
+		display: block;
+		float: right;
+	}
+	.navbar {
+		background-color: #b6b6b6;
+		-webkit-box-shadow: 0 10px 25px rgba(60, 72, 88, 0.3);
+   		box-shadow: 0 10px 25px rgba(60, 72, 88, 0.3);
+   		z-index: 5;
+	}
+	
+	.navbar.responsive {
+		width: 100%;
+		position: absolute;
+		display: block;
+		left: 0;
+		top: 82px;
+	}
+	.menu a.icon {
+		position: absolute;
+		top: 25px;
+		right: 15px;
+	}
+	.navbar.responsive ul {
+		margin-bottom: 15px;
+	}
+	.navbar.responsive ul li {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.navbar.responsive > ul > li > a {
+		color: #111;
+	}
+
+	/*----------------- navbar end --------------*/
+
+
+
+	/*------------ about area start ----------------- */
+	.personal_img {
+	    width: 98%;
+		margin-bottom: 20px;
+	}
+	.about_text {
+		width: 98%;
+		padding-left: 0;
+		margin-top: 0;
+
+	}
+
+	.personal_img-inner .p_img-wrap > img {
+		width: 100%;
+		height: auto;
+	}
+	.about_text .view_protfolio {
+		padding-bottom: 50px;
+	}
+
+	/* -------------- about area end --------------------- */
+
+	/* ------------- Remuse area start --------------------- */
+	.timeline:before {
+		left: 3%;
+	}
+	.timeline_icon {
+		left: .3%;
+	}
+	.timeline > ul > li {
+		width: 90%;
+		padding: 3%;
+	}
+	.timeline > ul > li:nth-child(odd) {
+		float: right;
+		text-align: center;
+		left: -3%;
+	}
+	.timeline > ul > li:nth-child(even) {
+		float: right;
+		text-align: left;
+		left: -3%;
+	}
+	.timeline > ul > li:nth-child(odd):before,
+	.timeline > ul > li:nth-child(even):before {
+		left: -5.5%;
+		right: 0;
+	}
+	.timeline > ul > li .timeline_cont {
+		padding: 2%;
+	}
+	.timeline > ul > li .date {
+		margin-top: 20px;
+	}
+	.timeline > ul > li .date > h6 {
+		padding: 3%;
+	}
+	.timeline > ul > li:nth-child(odd) .date {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.timeline > ul > li:nth-child(even) .date {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+
+	.perimg_box-wrap  {
+		display: none;
+	}
+	.exprience_box-wrap {
+		width: 100%;
+		float: none;
+	}
+	.experience_cont {
+		padding: 100px 5%;
+		overflow: hidden;
+	}
+	.pills_botton {
+		width: 100%;
+		margin-right: 0;
+	}
+	.skill_content-wrap {
+		width: 100%;
+	}
+
+
+	/* ----------------- Remuse area end ----------------- */
+
+	/* --------------- Protfolio area start ------------ */
+
+	.protfolio_box-img > img {
+		width: 100%;
+		height: auto;
+	}
+	.protfolio_box:hover img {
+		transform: none;
+	}
+	.overview .overview_cont {
+		display: none;
+	}
+	.protfolio_box:hover {
+		transform: translateY(-5px);
+	}
+	/*-------------------- Protfolio area end -----------------*/
+
+	/*------------------- Testmonial area start ----------------------*/
+	.small_device {
+		display: block;
+		width: 100%;
+		overflow: hidden;
+		text-align: center;
+		margin: 50px 0 100px 0;
+	}
+	.testimonial_cont-wrap {
+		display: none;
+	}
+	.testimonial_cont {
+		width: 98%;
+		margin: 0 auto;
+	}
+	/*--------------------- Testmonial area end --------------------*/
+
+	/*--------------------- Hire area start ---------------------- */
+	.hire_bg {
+		width: 100%;
+	}
+	.hire_cont {
+		width: 70%;
+	}
+
+	/*----------------------- Hire area end -----------------------*/
+
+	/* ------------------ Contact area start ----------------- */
+	.contact_form {
+		width: 90%;
+		margin: auto;
+	}
+	.contact_box {
+		width: 100%;
+		margin-right: 0;
+		margin-top: 0;
+	}
+	.contact_box > input[type="submit"] {
+		float: left;
+	}
+	.contact_box > textarea {
+		width: 90%;
+		padding: 10px 15px;
+	}
+
+
+
+
+
+}
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+	.wrap {
+			width: 100%;
+			padding-left: 10px;
+			padding-right: 10px;
+			margin: 0 auto;
+		}
+
+	.section_title > p {
+		max-width: 90%;
+	}
+
+
+	.col-3 {width: 95%; margin: 0 auto; margin-right: 0%; margin-bottom: 20px; padding: 1%; }
+	.col-3:nth-child(2) {margin-right: 0;}
+	.col-3:nth-child(3) {margin-right: 0%;}
+	.col-3:nth-child(4) {margin-right: 0;}
+	.col-3:nth-child(5) {margin-right: 0%;}
+	.col-3:nth-child(6) {margin-right: 0;}
+	.col-3:nth-child(7) {margin-right: 0%;}
+	.col-3:nth-child(8) {margin-right: 0;}
+
+	.col-4 {width: 48%; margin-right: 2%;}
+	.col-4:nth-child(3) {margin-right: 2;}
+	.col-4:nth-child(4) {margin-right: 0%;}
+	.col-4:nth-child(5) {margin-right: 2;}
+	.col-4:nth-child(6) {margin-right: 0;}
+	.col-4:nth-child(7) {margin-right: 2%;}
+	.col-4:nth-child(8) {margin-right: 0%;}
+	.col-4:nth-child(9) {margin-right: 2;}
+	.col-4:nth-child(10) {margin-right: 0;}
+	.col-4:nth-child(11) {margin-right: 2;}
+	.col-4:nth-child(12) {margin-right: 0;}
+	.col-4:nth-child(13) {margin-right: 2;}
+	.col-4:nth-child(14) {margin-right: 0%;}
+	.col-4:nth-child(15) {margin-right: 2%;}
+	.col-4:nth-child(16) {margin-right: 0%;}
+
+	/*-------------- navbar start -------------------*/
+	.navbar {display: none;}
+	.menu a.icon {
+		display: block;
+		float: right;
+	}
+	.navbar {
+		background-color: #b6b6b6;
+		-webkit-box-shadow: 0 10px 25px rgba(60, 72, 88, 0.3);
+   		box-shadow: 0 10px 25px rgba(60, 72, 88, 0.3);
+   		z-index: 5;
+	}
+	
+	.navbar.responsive {
+		width: 100%;
+		position: absolute;
+		display: block;
+		left: 0;
+		top: 82px;
+	}
+	.menu a.icon {
+		position: absolute;
+		top: 25px;
+		right: 15px;
+	}
+	.navbar.responsive ul {
+		margin-bottom: 15px;
+	}
+	.navbar.responsive ul li {
+		float: none;
+		display: block;
+		text-align: left;
+	}
+	.navbar.responsive > ul > li > a {
+		color: #111;
+	}
+
+	/*----------------- navbar end --------------*/
+
+	/*---------------- hobby area start -----------*/
+
+
+
+	/*------------ about area start ----------------- */
+	.personal_img {
+	    width: 98%;
+		margin-bottom: 20px;
+	}
+	.about_text {
+		width: 98%;
+		padding-left: 0;
+		margin-top: 0;
+
+	}
+
+	.personal_img-inner .p_img-wrap > img {
+		width: 100%;
+		height: auto;
+	}
+	.about_text .view_protfolio {
+		padding-bottom: 50px;
+	}
+
+
+	.counter_bg {
+		width: 100%;
+	}
+
+	/* -------------- about area end --------------------- */
+
+
+	/*----------------- counter area start --------------*/
+	.counter_bg {
+		width: 100%;
+	}
+
+
+	/* ------------- Remuse area start --------------------- */
+	.timeline:before {
+		left: 3%;
+	}
+	.timeline_icon {
+		left: .3%;
+	}
+	.timeline > ul > li {
+		width: 90%;
+		padding: 3%;
+	}
+	.timeline > ul > li:nth-child(odd) {
+		float: right;
+		text-align: center;
+		left: -3%;
+	}
+	.timeline > ul > li:nth-child(even) {
+		float: right;
+		text-align: left;
+		left: -3%;
+	}
+	.timeline > ul > li:nth-child(odd):before,
+	.timeline > ul > li:nth-child(even):before {
+		left: -5.5%;
+		right: 0;
+	}
+	.timeline > ul > li .timeline_cont {
+		padding: 2%;
+	}
+	.timeline > ul > li .date {
+		margin-top: 20px;
+	}
+	.timeline > ul > li .date > h6 {
+		padding: 3%;
+	}
+	.timeline > ul > li:nth-child(odd) .date {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	.timeline > ul > li:nth-child(even) .date {
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+
+
+	.perimg_box-wrap  {
+		display: none;
+	}
+	.exprience_box-wrap {
+		width: 100%;
+		float: none;
+	}
+	.experience_cont {
+		padding: 100px 5%;
+		overflow: hidden;
+	}
+	.pills_botton {
+		width: 100%;
+		margin-right: 0;
+	}
+	.skill_content-wrap {
+		width: 100%;
+	}
+
+
+	/* ----------------- Remuse area end ----------------- */
+
+	/* --------------- Protfolio area start ------------ */
+
+	.protfolio_box-img > img {
+		width: 100%;
+		height: auto;
+	}
+	.protfolio_box:hover img {
+		transform: none;
+	}
+	.overview .overview_cont {
+		display: none;
+	}
+	.protfolio_box:hover {
+		transform: translateY(-5px);
+	}
+	/*-------------------- Protfolio area end -----------------*/
+
+	/*------------------- Testmonial area start ----------------------*/
+	.small_device {
+		display: block;
+		width: 100%;
+		overflow: hidden;
+		text-align: center;
+		margin: 50px 0 100px 0;
+	}
+	.testimonial_cont-wrap {
+		display: none;
+	}
+	.testimonial_cont {
+		width: 98%;
+		margin: 0 auto;
+	}
+	/*--------------------- Testmonial area end --------------------*/
+
+	/*--------------------- Hire area start ---------------------- */
+	.hire_bg {
+		width: 100%;
+	}
+	.hire_cont {
+		width: 70%;
+	}
+
+	/*----------------------- Hire area end -----------------------*/
+
+	/* ------------------ Contact area start ----------------- */
+	.contact_form {
+		width: 90%;
+		margin: auto;
+	}
+	.contact_box {
+		width: 100%;
+		margin-right: 0;
+		margin-top: 0;
+	}
+	.contact_box > input[type="submit"] {
+		float: left;
+	}
+	.contact_box > textarea {
+		width: 90%;
+		padding: 10px 15px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/*		Small Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+*/
+@media screen and (max-width: 320px) {
+	/*-------------- about area start -----------*/
+	.about_text .view_protfolio > a {
+		display: block;
+		margin-bottom: 15px;
+	}
+
+
+	/*------------ about area end -------------*/
+
+	/*---------------- hobby area start -----------*/
+
+	.hobby {
+		width: 100%;
+		margin-right: 0;
+	}
+}
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+*/
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+
+}
